@@ -10,8 +10,11 @@
     <div class="container">
         <h1>Detección de Emociones</h1>
         <form id="upload-form">
-            <input type="file" id="file-input" accept="image/*" style="display: none;">
-            <button type="button" onclick="document.getElementById('file-input').click();">Seleccionar Imagen</button>
+            <input type="file" id="image-upload" accept="image/*">
+            <button type="button" id="select-button">Seleccionar Imagen</button>
+            <br>
+            <img id="selected-image" src="#" alt="Imagen seleccionada" style="display:none; max-width:100%;">
+            <br>
             <button type="submit">Cargar Imagen</button>
         </form>        
         <div id="result"></div>
