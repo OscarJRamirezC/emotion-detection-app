@@ -32,6 +32,9 @@
 
 ### Integración y Pruebas
 
+- en el simbolo del sistema ejecutar los comandos :
+- python app.py
+- python main.py
 - Accede a `http://localhost:5000` en tu navegador.
 - Sube una imagen y revisa los resultados de la predicción.
 
